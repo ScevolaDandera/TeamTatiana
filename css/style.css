@@ -475,7 +475,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container {
-  background: url(../img/about-img.jpg) left top no-repeat;
+  background: url(https://cdn-images-1.medium.com/max/1200/1*iIuea6nglxhwgPQ-foaaEA.png) left top no-repeat;
+  background-size: 50%;
 }
 
 #about .about-content {
