@@ -2,6 +2,7 @@
 
 > NodeScave - Cyrpto Node
 
+> #FullNode
 ## Build Setup
 
 ``` bash
