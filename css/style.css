@@ -446,6 +446,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 /* Sections Common
 --------------------------------*/
+.icomsg {
+  font-size: 42px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
 .section-title {
   font-size: 32px;
   color: #111;
@@ -549,14 +556,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Subscribe Section
 --------------------------------*/
-#subscribe {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/subscribe-bg.jpg) fixed center center;
+#subscribe {    
+  background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
   background-size: cover;
   padding: 80px 0;
 }
 
 #subscribe .subscribe-title {
-  color: #fff;
+  color: #0e81af;
   font-size: 28px;
   font-weight: 700;
 }
@@ -854,3 +861,4 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+
