@@ -37,7 +37,6 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css?v=3" rel="stylesheet">
   
-
 </head>
 
 <body>
@@ -316,7 +315,7 @@
           <div class="form">
             <div id="sendmessage">Your message has been sent. Thank you!</div>
             <div id="errormessage"></div>
-            <form role="form" class="contactForm" id="contactForm">
+            <form action="" method="post" role="form" class="contactForm">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validation"></div>
@@ -330,13 +329,13 @@
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" id="message" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
-                <div class="text-center"><button type="submit">Send Message</button>
-                  <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
-                </div>
+                <button class="g-recaptcha" data-sitekey="6Le07SUUAAAAAA8WcRv_FXO4bxSZv0MV2ZrH4KHA"data-callback="YourOnSubmitFn">Submit</button>
+                <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
+            <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
           </div>
         </div>
         
@@ -377,6 +376,8 @@
   
   <!-- Template Specisifc Custom Javascript File -->
   <script src="js/custom.js"></script>
+  
+  <!--<script src="contactform/contactform.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
 
   <script type="text/javascript">
@@ -397,6 +398,5 @@ clipboard.on('error', function(e) {
 
   </script>
     
-  <script type="text/javascript" src="contactform/form.js"></script>
 </body>
 </html>
